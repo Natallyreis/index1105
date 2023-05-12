@@ -24,7 +24,7 @@ main#album {
     
 }
 
-selection.coluna {
+section.coluna {
     /*border: 1px dashed black;*/
     flex: 1 1 100%;
     padding: 0px 5px;
