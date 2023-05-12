@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*Devices BREAKPOINTS
+TElas pequena: ate 600px
+celulares: 600px ate 768px
+Tablets: 768px ate 992px
+Notebooks: 992px ate 1200px
+Grandes telas: acima de 1200px
+Ipad: ate 992
+*/
+
+/*tamanho de tablests*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    section.coluna{
+        flex: 1 1 50%;
+    }
+}
+/*tamanho de celulares*/
+@media screen and (min-width: 600px) and (max-width: 768px){
+    section.coluna{
+        flex: 1 1 25%;
+    }
+}
+/*tamanho de Ipad*/
+@media screen and (min-width: 992px){
+    section.coluna{
+        flex: 1 1 25%;
+    }
+}
+
+
